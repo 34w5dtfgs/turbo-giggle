@@ -23,6 +23,10 @@ install:
 - mvn dependency:go-offline test clean --update-snapshots --fail-never -DskipTests=true
 script:
 - mvn deploy site --settings=.travis/mvn-settings.xml -Ddependency.locations.enabled=false
+- echo "***************************************"
+- echo BINTRAY_USER ${BINTRAY_USER}
+- echo SONAR_ORGANIZATION ${SONAR_ORGANIZATION}
+- echo "***************************************"
 deploy:
 - provider: script
   skip_cleanup: true
@@ -31,11 +35,11 @@ deploy:
     -Dsonar.login=${SONAR_TOKEN}
   on:
     branch: master
-    condition: "$TRAVIS_PULL_REQUEST = false"
+    condition: $TRAVIS_PULL_REQUEST = false
 - provider: pages
   skip_cleanup: true
-  github_token: "${GITHUB_TOKEN}"
+  github_token: ${GITHUB_TOKEN}
   local_dir: target/site/
   on:
     branch: master
-    condition: "$TRAVIS_PULL_REQUEST = false"
+    condition: $TRAVIS_PULL_REQUEST = false
