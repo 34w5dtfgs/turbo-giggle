@@ -261,7 +261,7 @@
     </snapshotRepository>
     <site>
       <id>website</id>
-      <url>${urlBase}/turbo-giggle</url>
+      <url>https://34w5dtfgs.github.io/turbo-giggle</url>
     </site>
   </distributionManagement>
   <issueManagement>
