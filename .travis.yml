@@ -1,0 +1,35 @@
+language: java
+sudo: false
+branches:
+  only:
+    - master
+jdk:
+  - oraclejdk8
+cache:
+  directories:
+    - $HOME/.m2
+    - $HOME/.sonar
+env:
+  global:
+addons:
+  ssh_known_hosts:
+    - github.com
+install:
+  - mvn dependency:go-offline test clean --update-snapshots --fail-never -DskipTests=true
+script:
+  - mvn deploy site --settings=.travis/mvn-settings.xml -Ddependency.locations.enabled=false
+deploy:
+  - provider: script
+    skip_cleanup: true
+    script:
+      - mvn sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=${SONAR_ORGANIZATION} -Dsonar.login=${SONAR_TOKEN}
+    on:
+      branch: master
+      condition: $TRAVIS_PULL_REQUEST = false
+  - provider: pages
+    skip_cleanup: true
+    github_token: ${GITHUB_TOKEN}
+    local_dir: target/site/
+    on:
+      branch: master
+      condition: $TRAVIS_PULL_REQUEST = false
