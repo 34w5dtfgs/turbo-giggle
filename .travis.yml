@@ -2,34 +2,40 @@ language: java
 sudo: false
 branches:
   only:
-    - master
+  - master
 jdk:
-  - oraclejdk8
+- oraclejdk8
 cache:
   directories:
-    - $HOME/.m2
-    - $HOME/.sonar
+  - "$HOME/.m2"
+  - "$HOME/.sonar"
 env:
   global:
+  - secure: IXl5B/sVPxVmtP8pcFjzvpcbEyNHeS/h+Ncqf5JQIkbWfzDsBz6E5M076oShYnkHBJ5pncTmgysOFpemdw0lcnu9A3+Ln4NyC9fTQ59rbofwZixLacUuw5mTNIXPRUuElSgjLz+YiEqemspAe/q2U61b3BTxojyGhsWYZ/KXcygvoFD4OE1RwWdB/EwI3xrGl82SRqSypyOQASLD3PAYgtnzKOMQGNNEuIfg1NUckzXQtnx3rzJbkN3DolDhssBStCeYwcH2ruBOg34Wwm5soSjxIiwFbCbUYtLyLu/Aqw30g+uOPbqbF4tIsF36zm+0omoeiVg+E7E2mBkTbr3+ySDdEENTR1UV98Q8Gf18G8Bjf87ipZ272LCZeom6zXK/r/lFQq+2HjYw2Ko8L5GltEbq1T9zDBf62v0TxSTDakfGQUbxClHcSJBAEBeiQPSUpj06GHqn3T//DQSOK4+rYDwVRjNQyQe7r9f3pdq1PatbVJF8KimKB5O90BpLaKU4YzD7Mk2srcRSB1vGfkAbeoz5zBnfQ8NJtezzAOWPd5BCVSGd2Pd4g3piMlaMerZ7pbSMgr+mXzkSucSYtGDIQiulgh6kSEXYnN3q+UE7xWMjva0NeoD8YpGeAUj+u7z0yCr55gdtw2R8i3idLK3WaZvrmITLtcmDzbj0AQv6xkg=
+  - secure: V6wOnxRCJpkr6HFg6RpnIWUxAwDrCWmUkg4B1hrLv3D705tnUmLocagS/iiJc09qKTF2HL0ZxU3RgCpcwo6uiejlNWxkSR2nW1+iCi+QHlcr0cQVtDYTZXKhPC+XBOyMbIvkaL9BcTv9UP4d4hZYJNlOLtQCTINaFbU9/KDU/Lslzvfi8r/1L5Vb20azEbQcnrnrxaim/jRA9Isy1JpAeElsL5HmuQae5Z+M/4CvugqKSn/o81lL+KXTrHZv5Pfrw9G6OHVRuwINqyeJWXP7WoNgKBydCtnjHzXxbkPqW4B3B0NKlqbu07oWQC+eldr8Fckr9CJ67cTKM4vcTAlObdwC4fA6Ek7cv+jIBQ0P8NBnvh86lQ13C0LM92ThC3GqaF2Py3JZ2hEtmg1jwNIh641Ji0bFp/CzO37gdFFi+Bla68x4M2IvAOzemeaGRhLA1/o0tUCmSdUUgmB8KENGVr9vFbsI2Ug7aaq+dFkE3tt3vQVddJ47giCO8BFg3/FDCvxuTX4jYmI8J9X7VxrEWaqHe4UUyOBmUVyTexp0oXF2+iZyj+chv7AEObSZGiBwOj4UKz5g6v0G30NW7EDZLG2Y4qaqkH9D5mO5Y8gM6416sXJzrvF/F86dQ8TmnAOhsusKih34AiheftG+yAKVHeOhk5q2CkaJjCr5zrFJ82o=
+  - secure: foyd9iWQMiLWafoSYnMVtb8toooKEygks/T0DbklXxYJdWmBq/gEdexY+b/2yit3YFRTvG6VySZ+K9kStl3+WHViba+87BLWDKSxyOv1CZk1+u/m8aTqy2CRyN+5SdjL+uoD6+CgQc8rS10BFh0H5UznyVMCA2IPh6sIBzPgyZykUPg2Sew7ABDFp09TATlg0908/q4fC3/MexQetZHLDXRNNDLbvc4FYj3GpMKirL5J5kfjUym1i7xnpkncfOkLJCiXDUL7Xo8orObWy7HKN/DsmYYntGMXfS3W6QWjDj8+nLKvjaV+ZXUcdRqh06I05CcASWvePMW+DyBtQ7bTGDVGHsky5x3JsI9lGbQtcTooyzh8IUQueXUhT1tSqIgkI2hzOkl0PL3lWTs5j/W4NUGyKxmHaF7Gkn14qa/0NyofjQh6E2KyLumYbbVFHl38dr3Ie/kmK9ZIeZeVMu2cYj5Mb9/wmGW4a3z98khjVBbVuzijV1J0cMTnJzKoh2oFLTJ9bkt54rgXTjKyc75e6hopA07rNanFN199yoxuN8wh9sa71g6Oj8vZMjrMVTZVYAPtpjPIFGePYS5O+IyCn883mj+3Z3Aj0aqdn4/EPqhaMs2YfIlbPGQ/4cA/fx+mCplwvDcucS0Gl9ZftNZFjQAX5kbF7fNEft/bHvJ4KJY=
+  - secure: ErQ6dNabkdzi7TisRrokITvsUAM8T4PCbDjG4bBWoElM86B3ITOWkdqifLND1i7ryA6DT7+oFS0TwoCqW44RjYFKExSk3aJMXwBWEdR6g/Oj32zB/Y8jhyreaH+vr+sC4+hnVTvnoOsxP8RUKzia6bShJqK1kNcb9nKuDgRQhVUeoNbGcdDbf8egPuNYyLca5oXxVxB5a10bKy8jxCo/WcMTutC2D3uol7idIdcBD5++JaR3mhqaXwiy+jt+QVJ7QCsF+nqZGhzRHNZvNhJWcvOEo0Mz32rV+ieaNhqyg8nt7DCqykRKacQR9TRUuf0YBOScQDS6POZrrKOafrho0+QwJ/6zBGjF+3q7ulDTurh/apmHuYD/p6m1VZWdxHT36gdbUMZJ+wa2zgxNL9fAjxcGchzB+er+AC1l30hX7R0F5CgbK1PKo4B7Pyj+63Lr2Yq3nXMV89c1roKEjcTKwlt8qeAkE1zrxnBPtugaXCRn4LzVGAd50896N6CnCpSRrExWgVn8fdLsWh/RD4CKKEK9P1ZiPU0m/rJYS9MijT4d7gqKpAFLBPACNhGn6d9lSkazV6WGlmQSz/XJH8uAJrvrJUtBK48MzmE2Cnh+ic8Wrfvdpta2m8VIJLiPDzbnbUnMDWAzKQl5RaoP9p5se/myEJDg4rDPpXByffgLdQM=
+  - secure: HQWTLgxIJmHsEne4NYNymue2VTbt8/hd2gV499Bc0JCMrcs+ptvtyLN+dOQ03CAbtIi+N2UDUYvxl280NTFlz8M7V7frGBpENtr0TMmfTBPZCNntiuZUOXAJ3pW/r3qh3U96xZ7vULg3j690F48Q+60zdv1Pg7JCOQ0VUWgBDg5PoRkepg8Qk90xgi9DslQadl8kMa3nmaWpgDNEfIXKfzqp65azx+lqQzvWJpsAIwKuE53P6lgf16kO2slEc9Gq5YiWqzJAC+AVCiQ3/VAX4rPbEa/yy4gXU1Rd4nGmPzk4+FyJzFy9O5UaDqVysRdjvPTeAyq5vTZhJD4k+lJdu1R2UPLkydA0IjVh7gaFWRZa4KfAWoyspT+rMlFU/CCMu4N0BBY5eTTuvqZbhoWHDidGzlW5NQDP6sadSm8FcsVIarZ/JbvPtSQLetS8EPduv+sIPAlc8a7RunAxt+nMofguzjE0HrnunDKT6lSsvyFYSdnsgJXN/ItudJppI1lANHVwNg5lHrodwzjavaZJE5nT/mZXAsGbC3U+KbK8E1xfu+MzoX1/vaK0gnwbaWwGFVjG27HFWtT6oC80LgWAPd5UTTziZ/52EGUFZ/qvIwCRQ2fFdH0f1xDAPi19fjB6JDuuDODt3tuLcIwC32zoD7NT56B4rJjBZBlSVtt25Dc=
 addons:
   ssh_known_hosts:
-    - github.com
+  - github.com
 install:
-  - mvn dependency:go-offline test clean --update-snapshots --fail-never -DskipTests=true
+- mvn dependency:go-offline test clean --update-snapshots --fail-never -DskipTests=true
 script:
-  - mvn deploy site --settings=.travis/mvn-settings.xml -Ddependency.locations.enabled=false
+- mvn deploy site --settings=.travis/mvn-settings.xml -Ddependency.locations.enabled=false
 deploy:
-  - provider: script
-    skip_cleanup: true
-    script:
-      - mvn sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=${SONAR_ORGANIZATION} -Dsonar.login=${SONAR_TOKEN}
-    on:
-      branch: master
-      condition: $TRAVIS_PULL_REQUEST = false
-  - provider: pages
-    skip_cleanup: true
-    github_token: ${GITHUB_TOKEN}
-    local_dir: target/site/
-    on:
-      branch: master
-      condition: $TRAVIS_PULL_REQUEST = false
+- provider: script
+  skip_cleanup: true
+  script:
+  - mvn sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=${SONAR_ORGANIZATION}
+    -Dsonar.login=${SONAR_TOKEN}
+  on:
+    branch: master
+    condition: "$TRAVIS_PULL_REQUEST = false"
+- provider: pages
+  skip_cleanup: true
+  github_token: "${GITHUB_TOKEN}"
+  local_dir: target/site/
+  on:
+    branch: master
+    condition: "$TRAVIS_PULL_REQUEST = false"
