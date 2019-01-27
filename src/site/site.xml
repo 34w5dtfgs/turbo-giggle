@@ -2,7 +2,7 @@
 
   DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 
-  Copyright 2019 34w5dtfgs, the Turboest Giggler
+  Copyright 2019 Copyright Owner
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@
   <version position="right"/>
   <body>
     <breadcrumbs>
-      <item name="34 W5 Dtfgs" href="https://34w5dtfgs.github.io/"/>
+      <item name="Github Account Name" href="https://34w5dtfgs.github.io/"/>
       <item name="${project.name}" href="${this.url}"/>
     </breadcrumbs>
     <menu name="Overview">

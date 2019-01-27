@@ -1,7 +1,7 @@
 /*
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
  *
- * Copyright 2019 34w5dtfgs, the Turboest Giggler
+ * Copyright 2019 Copyright Owner
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.a34w5dtfgs.turbo_giggle;
+package x34w5dtfgs.applications.turbo_giggle;
 
 /**
  * Hello world! application.

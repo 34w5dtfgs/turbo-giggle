@@ -2,7 +2,7 @@
 
   DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 
-  Copyright 2019 34w5dtfgs, the Turboest Giggler
+  Copyright 2019 Copyright Owner
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -21,8 +21,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>34w5dtfgs.application</groupId>
-  <artifactId>34w5dtfgs-turbo-giggle</artifactId>
+  <groupId>34w5dtfgs.applications</groupId>
+  <artifactId>turbo-giggle</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Turbo Giggle</name>
   <description>Yet another Turbo Giggle application.</description>
@@ -230,9 +230,9 @@
       </plugin>
     </plugins>
   </reporting>
-  <url>https://34w5dtfgs.github.io/34w5dtfgs-turbo-giggle</url>
+  <url>https://34w5dtfgs.github.io/turbo-giggle</url>
   <organization>
-    <name>34 W5 Dtfgs</name>
+    <name>Github Account Name</name>
     <url>https://github.com/34w5dtfgs</url>
   </organization>
   <licenses>
@@ -243,16 +243,16 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:git:https://github.com/34w5dtfgs/34w5dtfgs-turbo-giggle.git</connection>
-    <developerConnection>scm:git:git@github.com:34w5dtfgs/34w5dtfgs-turbo-giggle.git</developerConnection>
-    <url>https://github.com/34w5dtfgs/34w5dtfgs-turbo-giggle/</url>
+    <connection>scm:git:https://github.com/34w5dtfgs/turbo-giggle.git</connection>
+    <developerConnection>scm:git:git@github.com:34w5dtfgs/turbo-giggle.git</developerConnection>
+    <url>https://github.com/34w5dtfgs/turbo-giggle/</url>
     <tag>HEAD</tag>
   </scm>
   <distributionManagement>
     <repository>
       <id>bintray</id>
-      <name>34 W5 Dtfgs's Maven Repository on Bintray</name>
-      <url>https://api.bintray.com/maven/34w5dtfgs/maven/34w5dtfgs-turbo-giggle/;publish=1</url>
+      <name>Github Account Name's Maven Repository on Bintray</name>
+      <url>https://api.bintray.com/maven/34w5dtfgs/maven/turbo-giggle/;publish=1</url>
     </repository>
     <snapshotRepository>
       <id>local-build</id>
@@ -261,17 +261,17 @@
     </snapshotRepository>
     <site>
       <id>website</id>
-      <url>https://34w5dtfgs.github.io/34w5dtfgs-turbo-giggle</url>
+      <url>https://34w5dtfgs.github.io/turbo-giggle</url>
     </site>
   </distributionManagement>
   <issueManagement>
     <system>GitHub Issues</system>
-    <url>https://github.com/34w5dtfgs/34w5dtfgs-turbo-giggle/issues</url>
+    <url>https://github.com/34w5dtfgs/turbo-giggle/issues</url>
   </issueManagement>
   <developers>
     <developer>
-      <id>34w5dtfgs</id>
-      <name>34w5dtfgs, the Turboest Giggler</name>
+      <id>developer_id</id>
+      <name>Developer Name</name>
       <url>https://github.com/34w5dtfgs</url>
       <roles>
         <role>developer</role>
