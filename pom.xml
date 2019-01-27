@@ -230,10 +230,10 @@
       </plugin>
     </plugins>
   </reporting>
-  <url>https://34w5dtfgs.github.io/turbo-giggle</url>
+  <url>https://co-farkas.github.io/turbo-giggle</url>
   <organization>
-    <name>Github Account Name</name>
-    <url>https://github.com/34w5dtfgs</url>
+    <name>Farkas Co</name>
+    <url>https://github.com/co-farkas</url>
   </organization>
   <licenses>
     <license>
@@ -251,8 +251,8 @@
   <distributionManagement>
     <repository>
       <id>bintray</id>
-      <name>Github Account Name's Maven Repository on Bintray</name>
-      <url>https://api.bintray.com/maven/34w5dtfgs/maven/turbo-giggle/;publish=1</url>
+      <name>Farkas Co's Maven Repository on Bintray</name>
+      <url>https://api.bintray.com/maven/co-farkas/maven/turbo-giggle/;publish=1</url>
     </repository>
     <snapshotRepository>
       <id>local-build</id>
@@ -261,18 +261,18 @@
     </snapshotRepository>
     <site>
       <id>website</id>
-      <url>https://34w5dtfgs.github.io/turbo-giggle</url>
+      <url>https://co-farkas.github.io/turbo-giggle</url>
     </site>
   </distributionManagement>
   <issueManagement>
     <system>GitHub Issues</system>
-    <url>https://github.com/34w5dtfgs/turbo-giggle/issues</url>
+    <url>https://github.com/co-farkas/turbo-giggle/issues</url>
   </issueManagement>
   <developers>
     <developer>
-      <id>developer_id</id>
-      <name>Developer Name</name>
-      <url>https://github.com/34w5dtfgs</url>
+      <id>vikingfarkas</id>
+      <name>Mihaly Farkas</name>
+      <url>https://github.com/co-farkas</url>
       <roles>
         <role>developer</role>
       </roles>
