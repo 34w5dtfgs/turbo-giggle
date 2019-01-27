@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.34w5dtfgs.turbo_giggle;
+package com.a34w5dtfgs.turbo_giggle;
 
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
