@@ -230,7 +230,7 @@
       </plugin>
     </plugins>
   </reporting>
-  <url>https://co-farkas.github.io/turbo-giggle</url>
+  <url>${urlBase}/turbo-giggle</url>
   <organization>
     <name>Farkas Co</name>
     <url>https://github.com/co-farkas</url>
@@ -261,7 +261,7 @@
     </snapshotRepository>
     <site>
       <id>website</id>
-      <url>https://co-farkas.github.io/turbo-giggle</url>
+      <url>${urlBase}/turbo-giggle</url>
     </site>
   </distributionManagement>
   <issueManagement>
